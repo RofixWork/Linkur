@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loruku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- navabr -->
+  <div class="bg-indigo-500 text-white relative">
+    <div class="max-w-6xl mx-auto px-4 py-3 sm:flex items-center justify-between">
+      <div class="flex justify-between items-center">
+        <div>
+          <h1 class="text-2xl font-semibold">Loruku.</h1>
+        </div>
+        <div class="block sm:hidden">
+          <button id="openNav" class="block focus:outline-none">
+            <i class="bx bx-menu-alt-right text-3xl"></i>
+          </button>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul class="sm:flex">
+          <li><a class="p-2 mx-4 text-sm" href="">Home</a></li>
+          <li><a class="p-2 mx-4 text-sm" href="">Featues</a></li>
+          <li><a class="p-2 mx-4 text-sm" href="">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- navabr -->
+  <!-- showcase -->
+  <section class="showcase h-auto relative bg-indigo-500 text-white sm:h-96">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 items-center h-full">
+        <div class="text-center py-4 sm:p-0 sm:text-left">
+          <h2 class="text-2xl font-semibold sm:text-5xl">Easier Deployment</h2>
+          <p class="my-4 text-sm sm:text-base">Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform</p>
+          <a class="px-6 py-3 border rounded-md inline-block" href="">Read More</a>
+        </div>
+        <div class="showcase-form justify-self-center sm:justify-self-end">
+          <h2 class="text-2xl font-semibold">Request a Demo</h2>
+          <form >
+            <div class="my-12">
+              <input class="border-b w-full focus:border-indigo-500 text-sm" type="text" name="name" placeholder="Name">
+            </div>
+            <div class="my-12">
+              <input class="border-b w-full focus:border-indigo-500 text-sm" type="text" name="company" placeholder="Company">
+            </div>
+            <div class="my-12">
+              <input class="border-b w-full focus:border-indigo-500 text-sm" type="email" name="email" placeholder="Email">
+            </div>
+            <button class="px-6 py-2 text-sm bg-indigo-500 text-white rounded-md" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- showcase -->
+  <!-- stats -->
+  <section class="stats text-center">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="stats-head">
+        <h3>Welcome to the best platform for building applications of all types with modern architecture and scaling</h3>
+      </div>
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-0 mt-6">
+        <div>
+          <i class="bx bxs-server text-5xl"></i>
+          <h2 class="text-3xl mb-3">10,349,405</h2>
+          <p class="text-lg">Deployments</p>
+        </div>
+        <div>
+          <i class="bx bx-upload text-5xl" ></i>
+          <h2 class="text-3xl mb-3">987 TB</h2>
+          <p class="text-lg">Published</p>
+        </div>
+        <div>
+          <i class="bx bxs-folder text-5xl" ></i>
+          <h2 class="text-3xl mb-3">2,343,265</h2>
+          <p class="text-lg">Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- stats -->
+  <!-- CLI  -->
+  <section class="cli padding-content">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 gap-6 grid-rows-1 md:grid-cols-3 md:grid-rows-2 items-center">
+        <img class="w-full  md:col-span-2 md:row-span-2" src="./assests/images/cli.png" alt="">
+        <div class="border mx-6 bg-white p-4 shadow-lg rounded-md sm:m-0">
+          <h3 class="font-semibold font-mono">Easy to use, cross platform CLI</h3>
+        </div>
+        <div class="mx-6 border bg-white p-4 shadow-lg rounded-md sm:m-0">
+          <h3 class="font-semibold font-mono">Deploy in seconds</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CLI  -->
+  <!-- Cloud -->
+  <section class="cloud bg-indigo-500 text-white text-center padding-content">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 items-center">
+        <div>
+          <h2 class="text-xl font-semibold sm:text-4xl">Extreme Cloud Hosting</h2>
+          <p class="my-4">Cloud hosting like you've never seen. Fast, efficient and scalable</p>
+          <a class="inline-block rounded-md px-6 py-3 bg-black text-white text-sm" href="">Read More</a>
+        </div>
+        <img class="w-full" src="./assests/images/cloud.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Cloud -->
+  <!-- lang -->
+  <div class="lang padding-content">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-center text-2xl">Supported Languages</h2>
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-4">
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Node js</h3>
+          <img class="w-full" src="./assests/images/logos/node.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Go</h3>
+          <img class="w-full" src="./assests/images/logos/go.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Clojure</h3>
+          <img class="w-full" src="./assests/images/logos/clojure.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Csharp</h3>
+          <img class="w-full" src="./assests/images/logos/csharp.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Python</h3>
+          <img class="w-full" src="./assests/images/logos/python.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Ruby</h3>
+          <img class="w-full" src="./assests/images/logos/ruby.png" alt="">
+        </div>
+        <div class="border bg-white p-4 shadow-lg rounded-md text-center">
+          <h3 class="mb-3 font-medium">Scala</h3>
+          <img class="w-full" src="./assests/images/logos/scala.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- lang -->
+  <footer class="padding-content text-white">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div>
+          <h2 class="text-2xl font-semibold">Loruki.</h2>
+          <p class="font-mono">Copyright © 2020</p>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Featues</a></li>
+          <li><a href="#">Docs</a></li>
+        </ul>
+        <div>
+          <a href="#"><i class="bx bxl-facebook-circle text-3xl mx-0 sm:mx-3"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt text-3xl mx-3" ></i></a>
+          <a href="#"><i class="bx bxl-twitter text-3xl mx-3" ></i></a>
+          <a href="#"><i class="bx bxl-youtube text-3xl mx-3" ></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
